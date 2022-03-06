@@ -75,12 +75,12 @@ class _SettingsFormState extends State<SettingsForm> {
                   const SizedBox(height: 10.0),
                   Slider(
                       value: (_currentStrength ?? userData!.strength).toDouble(),
-                      min: 0.0,
+                      min: 100.0,
                       max: 900.0,
                       onChanged: (val) => setState(() => _currentStrength = val.round()),
                       inactiveColor: Colors.brown[100],
                       activeColor: Colors.brown,
-                      divisions: 20),
+                      divisions: 8),
                   const SizedBox(height: 10.0),
                   ElevatedButton(
                       style: raisedButtonStyleBrown,
