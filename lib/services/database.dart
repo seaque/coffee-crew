@@ -9,7 +9,7 @@ class DatabaseService {
   //Collection reference
   final CollectionReference coffeeCollection = FirebaseFirestore.instance.collection('coffees');
 
-  Future updateUserData(String name, String choice, String sugars, int strength) async {
+  Future updateUserData(String name, String choice, int sugars, int strength) async {
     return await coffeeCollection.doc(uid).set({'name': name, 'choice': choice,'sugars': sugars, 'strength': strength});
   }
 

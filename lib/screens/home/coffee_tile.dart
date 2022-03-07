@@ -31,7 +31,7 @@ class CoffeeTile extends StatelessWidget {
                   padding: EdgeInsets.fromLTRB(8, 0, 3, 0),
                   child: Image(image: AssetImage('assets/images/sugars.jpg'), width: 16.0, height: 16.0),
                 )),
-                TextSpan(text: coffee.sugars),
+                TextSpan(text: coffee.sugars.toString()),
               ],
             ),
           ),
