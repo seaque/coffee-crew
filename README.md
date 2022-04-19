@@ -1,6 +1,7 @@
 # Coffee Crew
 
-A mobile app for users to set their Coffee preferences, written in Flutter and Firebase as data storing.
+[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+
 
 # Screenshots
 
