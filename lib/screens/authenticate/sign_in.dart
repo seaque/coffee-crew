@@ -31,7 +31,7 @@ class _SignInState extends State<SignIn> {
             appBar: AppBar(
               backgroundColor: Colors.brown[500],
               elevation: 0.0,
-              title: const Text('Sign In'),
+              title: const Text('Coffee Crew'),
               actions: <Widget>[
                 ElevatedButton.icon(
                   style: flatButtonStyleBrown,
@@ -44,6 +44,12 @@ class _SignInState extends State<SignIn> {
               ],
             ),
             body: Container(
+              decoration: const BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage('assets/images/sign_in_bg.jpg'),
+                  fit: BoxFit.cover
+                )
+              ),
                 padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 40.0),
                 child: Form(
                     key: _formKey,
@@ -101,7 +107,9 @@ class _SignInState extends State<SignIn> {
                           style: const TextStyle(color: Colors.red, fontSize: 12.0),
                         ),
                       ],
-                    ))),
+                    )
+                )
+            ),
           );
   }
 }
