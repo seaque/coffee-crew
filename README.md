@@ -1,6 +1,10 @@
 # Coffee Crew
 
-A new Flutter project.
+A mobile app for users to set their Coffee preferences, written in Flutter and Firebase as data storing.
+
+# Screenshots
+
+![Screenshot](https://github.com/seaque/coffee-crew/blob/assets/coffee-crew-marketing.png)
 
 ## Getting Started
 
