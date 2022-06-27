@@ -4,6 +4,7 @@
 [![Flutter Version](https://img.shields.io/badge/Flutter-2.8.1-5DC4FE.svg)](https://flutter.dev)
 [![Dart Version](https://img.shields.io/badge/Dart-2.15.1-305AB3.svg)](https://dart.dev)
 [![CloudFirestore Version](https://img.shields.io/badge/Cloud_Firestore-3.1.7-f5Cb2b.svg)](https://pub.dev/packages/cloud_firestore)
+[![Provider Version](https://img.shields.io/badge/Provider-6.0.2-f5Cb2b.svg)](https://pub.dev/packages/provider)
 
 
 # Screenshots
