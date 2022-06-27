@@ -11,6 +11,14 @@
 
 ![Screenshot](https://github.com/seaque/coffee-crew/blob/assets/coffee-crew-marketing.png)
 
+## Building
+
+clone this repo `git clone https://github.com/seaque/coffee-crew`
+
+get the packages `flutter pub get`
+
+run `flutter run`
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
