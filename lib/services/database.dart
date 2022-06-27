@@ -1,6 +1,7 @@
-import 'package:brew_crew/models/myuser.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:brew_crew/models/coffee.dart';
+
+import '../models/coffee.dart';
+import '../models/myuser.dart';
 
 class DatabaseService {
   final String uid;

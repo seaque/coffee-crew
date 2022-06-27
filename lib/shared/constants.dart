@@ -2,9 +2,16 @@ import 'package:flutter/material.dart';
 
 final ButtonStyle raisedButtonStyleBrown = ElevatedButton.styleFrom(
   onPrimary: Colors.black87,
-  primary: Colors.brown[500],
+  primary: Colors.brown[600],
   minimumSize: const Size(88, 36),
   padding: const EdgeInsets.symmetric(horizontal: 16.0),
+);
+
+final ButtonStyle flatButtonStyleBrown = TextButton.styleFrom(
+  primary: Colors.black87,
+  minimumSize: const Size(88, 36),
+  padding: const EdgeInsets.symmetric(horizontal: 16.0),
+  backgroundColor: Colors.brown[600]
 );
 
 final ButtonStyle raisedButtonStyleCyan = ElevatedButton.styleFrom(
@@ -19,13 +26,6 @@ final ButtonStyle flatButtonStyleCyan = TextButton.styleFrom(
   minimumSize: const Size(88, 36),
   padding: const EdgeInsets.symmetric(horizontal: 16.0),
   backgroundColor: Colors.cyan[500]
-);
-
-final ButtonStyle flatButtonStyleBrown = TextButton.styleFrom(
-  primary: Colors.black87,
-  minimumSize: const Size(88, 36),
-  padding: const EdgeInsets.symmetric(horizontal: 16.0),
-  backgroundColor: Colors.brown[500]
 );
 
 const textInputDecoration = InputDecoration(

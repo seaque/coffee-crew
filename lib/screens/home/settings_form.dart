@@ -1,9 +1,10 @@
-import 'package:brew_crew/models/myuser.dart';
-import 'package:brew_crew/services/database.dart';
-import 'package:brew_crew/shared/loading.dart';
 import 'package:flutter/material.dart';
-import 'package:brew_crew/shared/constants.dart';
 import 'package:provider/provider.dart';
+
+import '../../models/myuser.dart';
+import '../../services/database.dart';
+import '../../shared/constants.dart';
+import '../../shared/loading.dart';
 
 class SettingsForm extends StatefulWidget {
   const SettingsForm({Key? key}) : super(key: key);
@@ -37,7 +38,7 @@ class _SettingsFormState extends State<SettingsForm> {
                 children: <Widget>[
                   const Text(
                     'Update Coffee Settings',
-                    style: TextStyle(fontSize: 18.0, color: Colors.brown),
+                    style: TextStyle(fontSize: 18.0, color: Colors.brown, fontWeight: FontWeight.w600),
                   ),
                   const SizedBox(height: 20.0),
                   TextFormField(
